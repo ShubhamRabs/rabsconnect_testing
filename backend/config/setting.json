@@ -1,0 +1,8 @@
+{
+  "lead": {
+    "showTypeOfBuyer": false,
+    "showInvestmentType": false,
+    "showPostHandover": false,
+    "showLeadPriority": true
+  }
+}

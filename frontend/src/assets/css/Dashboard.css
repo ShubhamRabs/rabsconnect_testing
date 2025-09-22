@@ -1,0 +1,45 @@
+.pie-chart-wrapper p {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  word-wrap: break-word;
+  color: #6f6b7d;
+}
+
+.pie-chart-wrapper h5 {
+  font-size: 1.125rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  line-height: 1.37;
+  color: #5d596c;
+}
+
+.pie-chart-color {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.pie-chart-container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 15px;
+}
+
+.user-online,
+.user-offline {
+  padding: 0.49em 1em;
+  font-size: 0.81em;
+  font-weight: 500;
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 10px #eee;
+}
+
+.user-online {
+  background-color: #dff7e9 !important;
+  color: #28c76f !important;
+}
+.user-offline {
+  background-color: #fce5e6 !important;
+  color: #ea5455 !important;
+}

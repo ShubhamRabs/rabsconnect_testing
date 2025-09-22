@@ -1,0 +1,19 @@
+.modal-dates-dialog {
+    max-width: fit-content;
+}
+
+.modal-dates-header {
+    padding-top: 32px;
+}
+
+.image-modal {
+    margin-top: 64px;
+}
+
+.image-modal-dialog {
+    max-width: 90vw;
+}
+
+.image-modal-content {
+    height: calc(100vh - 108px);
+}

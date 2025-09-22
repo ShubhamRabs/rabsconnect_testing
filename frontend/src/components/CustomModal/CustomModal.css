@@ -1,0 +1,13 @@
+.delete-modal .btn-close {
+  box-shadow: none;
+}
+.delete-modal .modal-header {
+  border: none;
+}
+
+.close-modal-btn {
+  position: absolute !important;
+  right: 0 !important;
+  top: -1.2rem !important;
+  background: #fff !important;
+}

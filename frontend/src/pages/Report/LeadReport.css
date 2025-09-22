@@ -1,0 +1,47 @@
+.lead-detail{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.detail-box{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.detail-card{
+    width: 30%;
+    overflow: hidden;
+    /* box-shadow: 10px; */
+    border-radius: 10px;
+    /* padding: 10px; */
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 8px;
+    border: 1px solid rgb(228, 228, 228);
+}
+
+.card-data{
+    padding: 10px;
+}
+
+.card-heading{
+    background: #1565c0;
+    color: white;
+    padding: 10px;
+}
+
+.lead-heading{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pdf_button{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}

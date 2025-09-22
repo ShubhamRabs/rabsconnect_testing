@@ -1,0 +1,29 @@
+.loader-body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #215fc0, #e61b76);
+  transform: translateY(-100vh);
+  animation: bouncing 2s linear infinite;
+}
+
+@keyframes bouncing {
+  0% {
+    transform: translateY(-100vh);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  75% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0) scale(30);
+  }
+}

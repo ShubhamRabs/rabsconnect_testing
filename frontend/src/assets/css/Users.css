@@ -1,0 +1,66 @@
+.add-user-table {
+  margin-top: 1rem;
+  border-collapse: collapse;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  cursor: pointer;
+  background-color: #fff !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  border-radius: 5px !important;
+  font-size: 13px !important;
+  position: relative;
+}
+
+.add-user-table td label,
+.add-user-table th label {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.53;
+}
+
+.add-user-table td,
+.add-user-table th {
+  padding: 0.625rem 1.25rem;
+  border-bottom: 1px solid #d9dee3 !important;
+  font-size: 0.9375rem;
+  color: #6a7b8e;
+  font-weight: 500 !important;
+}
+
+.add-user-table td svg,
+.add-user-table th svg {
+  font-size: 1.4rem;
+  border-radius: 0.25em;
+}
+
+/* .add-user-table th {
+  font-weight: 500 !important;
+  white-space: break-spaces !important;
+}
+
+.add-user-table td,
+.add-user-table th {
+  border: 1px solid #ddd !important;
+  font-size: 14px !important;
+  margin: 0;
+  overflow: hidden;
+  padding: 0.6rem;
+  text-align: center !important;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 120px;
+} */
+
+.user-create-details {
+  position: absolute;
+  right: 2px;
+  margin-right: 25px;
+  font-size: 16px;
+}
+@media only screen and (max-width: 768px) {
+  .user-create-details {
+    position: relative !important;
+  }
+}

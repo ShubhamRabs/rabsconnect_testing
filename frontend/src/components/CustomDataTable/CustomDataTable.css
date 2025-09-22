@@ -1,0 +1,256 @@
+.table {
+  /* margin-top: 1rem; */
+  margin-bottom: 0;
+  border-collapse: collapse;
+  width: 100%;
+  /* height: 30.6vw; */
+  overflow-y: scroll;
+  overflow-x: scroll;
+  cursor: pointer;
+  background-color: #fff !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+  border-radius: 5px !important;
+  /* box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important; */
+  font-size: 13px !important;
+  position: relative;
+  /* transform: rotateX(180deg); */
+}
+
+.custom-data-table {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  width: 100%;
+  overflow: scroll;
+  border-collapse: collapse;
+  cursor: pointer;
+  position: relative;
+  background-color: #fff;
+  /* margin: 1rem 0; */
+}
+
+.custom-data-table td {
+  border-right: 1px solid #ddd !important;
+  padding: 0.4rem;
+  text-align: center !important;
+  font-size: 14px !important;
+  max-width: 150px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.custom-data-table .lead-row td {
+  /* border-right: 1px solid #f186b8 !important; */
+  /* background-color: #f7b7d6; */
+  /* color: rgb(212, 77, 140); */
+  color: #0000008a;
+  /* color: #2a5ebf; */
+  font-weight: 600;
+}
+
+.custom-data-table .imported-lead-row {
+  /* border-right: 1px solid #f186b8 !important; */
+  /* background-color: #f7b7d6; */
+  color: #3fc184;
+  font-weight: 600;
+}
+
+.custom-data-table .absent-row td {
+  /* border-right: 1px solid #f186b8 !important; */
+  background-color: #ffc8c8;
+}
+
+.custom-data-table th {
+  border-right: 1px solid #ddd !important;
+  background-color: #f3f5f9 !important;
+  padding: 0.6rem;
+  text-align: left !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  vertical-align: middle;
+  width: auto !important;
+  max-width: none !important;
+  color: #1e1f21 !important;
+  white-space: nowrap;
+  text-overflow: unset;
+}
+
+.custom-data-table .table thead {
+  background: #fff !important;
+  border-radius: 5px 5px 0 0 !important;
+  color: #757575 !important;
+  text-transform: capitalize;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+tr:last-child td {
+  border-bottom: 0;
+}
+
+th:last-child,
+td:last-child {
+  border-right: 0 !important;
+}
+
+td:nth-child(3),
+th:nth-child(3) {
+  width: 100px;
+}
+
+td:nth-child(4),
+th:nth-child(4) {
+  width: 100px;
+}
+
+td:nth-child(5),
+th:nth-child(5) {
+  width: 100px;
+}
+
+.td-width-auto,
+.th-width-auto {
+  width: auto !important;
+}
+
+/* td:nth-child(6),
+th:nth-child(6){
+  width: 130px;
+}
+td:nth-child(6){
+  white-space: break-spaces!important;
+  word-break: break-all !important;
+} */
+
+/* td:nth-child(7) {
+  white-space: break-spaces!important;
+  word-break: break-all;
+} */
+
+/* td:nth-child(8),
+th:nth-child(8){
+  width: 270px;
+}
+td:nth-child(8){  
+  white-space: break-spaces!important;
+  word-break: break-all;
+} */
+
+/* td:nth-child(9){  
+  white-space: break-spaces!important;
+  word-break: break-all;
+} */
+
+/* td:nth-child(10){  
+  white-space: break-spaces!important;
+  word-break: break-all;
+} */
+
+/* td:nth-child(12),
+th:nth-child(12){
+  width: 130px;
+} */
+/* td:nth-child(12){  
+  white-space: break-spaces!important;
+  word-break: break-all;
+} */
+
+/* .custom-data-table tr {
+  border-top: 1px solid #e6e6e6 !important;
+}
+
+
+th {
+  color: #333 !important;
+  white-space: break-spaces !important;
+}
+tbody tr {
+  border-bottom: none;
+}
+td {
+  font-weight: 100;
+  padding: 0.66rem 0.6rem !important;
+} */
+/* Target the Action column specifically */
+.custom-data-table th:nth-child(2), /* Adjust index based on your table structure */
+.custom-data-table td:nth-child(2) {
+  width: 300px !important; /* Increase width to fit all buttons */
+  max-width: 300px !important; /* Override max-width */
+  white-space: nowrap; /* Keep buttons in one line */
+  overflow: visible; /* Prevent clipping */
+  padding: 0.4rem 0.2rem; /* Reduce padding to save space */
+}
+.table-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  bottom: 0px;
+  background-color: #fff !important;
+  padding: 10px 20px;
+}
+
+.table-footer .pagination {
+  margin: 0 !important;
+  padding: 0 !important;
+  justify-content: center !important;
+  align-items: center !important;
+  display: flex !important;
+  gap: 0.5rem;
+}
+
+.pagination button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+  border: 1px solid #ced4da;
+}
+
+.page-select {
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  color: #505d69 !important;
+  padding: 0rem !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 0.25rem !important;
+  box-shadow: none !important;
+  outline: none !important;
+  padding: 5px !important;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .table-footer {
+    display: inline-block;
+  }
+
+  .table-footer .pagination {
+    display: inline-block !important;
+  }
+
+  .table-footer button {
+    margin: 12px 7px;
+  }
+
+  .table-footer .page-select {
+    margin: 12px 0;
+  }
+}
+
+/* .table-cell {
+  white-space: break-spaces !important;
+  text-overflow: ellipsis !important;
+  width: 150px !important;
+} */

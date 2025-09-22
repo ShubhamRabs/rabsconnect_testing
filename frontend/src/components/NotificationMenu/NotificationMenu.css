@@ -1,0 +1,80 @@
+.notification-wrapper button {
+  background-color: #fff !important;
+  border: none;
+}
+
+.notification-wrapper .notification-badge span {
+  font-size: 0.625rem !important;
+  background: #f06548;
+}
+
+.notification-menu {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  width: 320px !important;
+  overflow-x: hidden;
+}
+
+.notification-header {
+  padding: 1rem;
+  background: rgb(64, 81, 137);
+  color: #fff;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.notification-body {
+  padding: 1rem;
+  overflow-x: hidden;
+  height: 240px;
+  overflow-y: scroll;
+}
+
+.notification-body .notification-item {
+  padding: 0 !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+}
+
+.notification-body .notification-item h6 {
+  font-size: 0.9125rem;
+  margin-bottom: 0.25rem;
+  margin-top: 0;
+  font-weight: 600;
+  color: #495057;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.notification-body .notification-item p {
+  color: #878a99 !important;
+  font-size: 0.8125rem !important;
+  font-weight: 400 !important;
+  margin-bottom: 0.25rem !important;
+  text-transform: none;
+  white-space: inherit !important;
+  line-height: 1.5 !important;
+}
+
+.view-all-notfication-btn {
+  color: #0ab39c !important;
+  background-color: #daf4f0 !important;
+  padding: 8px 14px !important;
+  font-size: 13px !important;
+  text-transform: capitalize !important;
+  box-shadow: 0px 0px 10px #ccc !important;
+}
+
+.view-all-notfication-btn:hover {
+  color: #fff !important;
+  background-color: #0ab39c !important;
+}
+
+.no-notification h6 {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}

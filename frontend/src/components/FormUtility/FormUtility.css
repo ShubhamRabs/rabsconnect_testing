@@ -1,0 +1,61 @@
+.custom-from-group {
+  display: flex !important;
+  align-items: center !important;
+}
+.custom-input,
+.custom-textarea {
+  display: block !important;
+  width: 100% !important;
+  padding: 0.47rem 0.75rem !important;
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  color: #505d69 !important;
+  background-color: #fff;
+  border: 1px solid #ced4da !important;
+  border-radius: 0.25rem !important;
+  outline: none !important;
+}
+
+.required-label {
+  margin-left: 0.5rem;
+}
+.required-label,
+.error {
+  color: red !important;
+  font-size: 14px !important;
+  margin-top: 0.3rem !important;
+}
+
+.custom-form-label {
+  font-size: 0.8525rem !important;
+  font-weight: 500;
+  color: #0f1114;
+  margin-bottom: 0.5rem !important;
+}
+
+.custom-select {
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  color: #505d69 !important;
+  padding: 0rem !important;
+  border: 1px solid #ced4da !important;
+  border-radius: 0.25rem !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.custom-select input {
+  padding: 0px !important;
+}
+.custom-select label {
+  margin-top: -7px !important;
+  font-family: "Rubik", Sans-serif !important;
+}
+.number-in-word {
+  font-size: small;
+  margin-top: 3px;
+  color: #767676;
+  font-weight: 400;
+}
+/* ================================================================= */

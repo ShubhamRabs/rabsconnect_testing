@@ -1,0 +1,24 @@
+.status-color-card {
+  justify-content: center !important;
+  align-items: center !important;
+  display: flex !important;
+  height: 3.5rem !important;
+  width: 3.5rem !important;
+  cursor: pointer !important;
+  border-radius: 0px !important;
+  padding: 0 !important;
+  color: rgb(255, 255, 255) !important;
+  flex-direction: row !important;
+  border: none !important;
+  box-shadow: 0px 0px 10px #ccc !important;
+}
+.status-color-card svg {
+  height: 30px !important;
+  width: 30px !important;
+}
+.status-color-row {
+  margin-top: 1rem !important;
+  gap: 0.5rem !important;
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+  display: grid !important;
+}

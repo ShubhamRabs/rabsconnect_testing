@@ -1,0 +1,89 @@
+/* General styles */
+
+
+.setting-tabs button {
+    margin: 10px 0;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);
+    padding: 10px 19px;
+    text-align: left; /* Align text to the left */
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.setting-tabpanel button {
+    border: 1px solid #ccc;
+    margin: 15px 5px 10px;
+    padding: 8px 10px;
+    border-top: 0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);
+}
+
+.custom-card div .card-title {
+    padding: 0;
+}
+
+.setting-tabpanel {
+    background: #fff;
+    margin: 10px 25px;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);
+    border: 1px solid #ccc;
+}
+
+.column-setting {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+/* Container for the label and input */
+.toggle-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Hide default checkbox */
+  .toggle-checkbox {
+    display: none;
+  }
+  
+  /* Style the custom toggle slider */
+  .toggle-slider {
+    position: relative;
+    width: 50px;
+    height: 24px;
+    background-color: #ccc;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  /* Circle inside the toggle slider */
+  .toggle-slider::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s;
+  }
+  
+  /* When the checkbox is checked, change styles */
+  .toggle-checkbox:checked + .toggle-slider {
+    background-color: #0b1eef;
+  }
+  
+  .toggle-checkbox:checked + .toggle-slider::before {
+    transform: translateX(26px);
+  }
+  

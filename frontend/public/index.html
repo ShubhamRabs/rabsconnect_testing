@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Real Estate CRM</title>
+    <style>
+      .center-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+      }
+
+      #spinner img:before {
+        opacity: 0.5;
+        animation: spin 1s infinite;
+      }
+
+      #spinner img:after {
+        animation: spin 1s infinite alternate;
+        opacity: 1;
+      }
+
+      @keyframes spin {
+        0% {
+          opacity: 0.5;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <input type="hidden" id="crm_countries" value="India" />
+    <input type="hidden" id="client_id" value="202941" />
+    <div id="root">
+      <div class="center-body" id="spinner">
+        <img src="./logo.png" srcset="./logo.png" width="30%" />
+      </div>
+    </div>
+  </body>
+</html>

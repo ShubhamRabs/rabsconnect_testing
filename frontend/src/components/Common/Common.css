@@ -1,0 +1,38 @@
+.custom-heading {
+  font-size: 1rem;
+  margin: 0px 0px 7px;
+  font-weight: 600;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.custom-description {
+  color: #1d1f2a;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  text-align: left;
+  overflow: hidden;
+}
+
+.custom-description .description-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: block;
+}
+
+.custom-description svg{
+  margin-right: 5px;
+}
+
+.custom-subtitle {
+  font-size: .875rem;
+  margin: 0px 0px 7px;
+  color: #302e2e;
+  font-weight: 500;
+  margin-bottom: 0;
+  line-height: 1.2;
+}

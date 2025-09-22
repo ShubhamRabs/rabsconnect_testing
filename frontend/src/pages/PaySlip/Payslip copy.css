@@ -1,0 +1,86 @@
+@media (max-width: 404px) {
+    .payslip{
+        max-height: 50vw;
+        /* width:; */
+    }
+    .payslip h2{
+        font-size: 12px;
+    }
+    .payslip p{
+        font-size: 5px;
+    }
+
+    .payslip-img{
+        width: 100%;
+    }
+    .payslip-img div{
+        margin: 1px;
+        width:200px;
+        background: yellow;
+    }
+}
+
+@media (min-width: 404px) and (max-width: 768px) {
+.payslip{
+        max-height: 50vw;
+        /* width:; */
+    }
+    .payslip h2{
+        font-size: 18px;
+    }
+    .payslip p{
+        font-size: 9px;
+    }
+    .payslip-img{
+        margin: 1px;
+        width:100%;
+        background: red;
+    }
+}
+
+.payslip-img img{
+    margin: 1px;
+    width:50%;
+}
+
+.payslip-img{
+    width: 50%;
+    margin: 10px;
+    background: red;
+}
+
+.mainCard{
+    padding: 10px;
+}
+
+/* .payslip{
+    max-width: 80vw;
+    max-height: 50vw;
+    min-width: 90vw;
+    min-height: 50vw;
+    background: red;
+    overflow: scroll;
+    padding: 0px;
+    margin: 0px;
+} */
+
+.payslip p{
+    font-size: 1.2vw;
+    margin: 0;
+}
+
+.payslip-img{
+    width: 40vw;
+    /* background: red; */
+}
+
+.payslip-img div{
+    width: 100%;
+}
+.payslip-img div img{
+    width: 100%;
+}
+
+.payslip-heading{
+    font-size: 3vw;
+}

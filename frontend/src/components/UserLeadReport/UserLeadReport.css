@@ -1,0 +1,500 @@
+/* UserLeadReport.css */
+:root {
+    /* Core colors */
+    --color-white: #ffffff;
+    --color-gray-50: #f9fafb;
+    --color-gray-100: #f3f4f6;
+    --color-gray-200: #e5e7eb;
+    --color-gray-300: #d1d5db;
+    --color-gray-400: #9ca3af;
+    --color-gray-500: #6b7280;
+    --color-gray-600: #4b5563;
+    --color-gray-700: #374151;
+    --color-gray-800: #1f2937;
+    --color-gray-900: #111827;
+
+    /* Status colors */
+    --color-hot: #ef4444;
+    --color-hot-bg: #fee2e2;
+    --color-cold: #3b82f6;
+    --color-cold-bg: #dbeafe;
+    --color-open: #10b981;
+    --color-open-bg: #d1fae5;
+    --color-not-interested: #8b5cf6;
+    --color-not-interested-bg: #ede9fe;
+    --color-junk: #6b7280;
+    --color-junk-bg: #f3f4f6;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+    /* Border radiuses */
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-full: 9999px;
+
+    /* Animation */
+    --transition-speed: 0.2s;
+    --transition-easing: ease-in-out;
+}
+
+.team-table-container {
+    background-color: var(--color-white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-table-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-gray-900);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--color-gray-200);
+}
+
+.team-table-wrapper {
+    overflow-x: auto;
+}
+
+.team-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.team-table thead tr {
+    background-color: var(--color-gray-100);
+}
+
+.team-table th {
+    padding: 1rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-gray-700);
+    border-bottom: 1px solid var(--color-gray-200);
+    text-align: center;
+}
+
+.team-table th.th-member {
+    text-align: left;
+    padding-left: 1.5rem;
+    width: 25%;
+}
+
+.team-table th.th-status {
+    width: 10%;
+}
+
+.team-table th.th-total {
+    width: 12%;
+}
+
+.team-table th.th-action {
+    width: 5%;
+}
+
+.team-table td {
+    padding: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid var(--color-gray-200);
+}
+
+.team-row {
+    transition: background-color var(--transition-speed) var(--transition-easing);
+}
+
+.team-row:hover {
+    background-color: var(--color-gray-50);
+}
+
+.team-row.expanded {
+    background-color: var(--color-gray-50);
+}
+
+.team-row.expanded td {
+    border-bottom: none;
+}
+
+.member-cell {
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+.member-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.member-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-full);
+    object-fit: cover;
+    border: 2px solid var(--color-gray-200);
+}
+
+.member-name {
+    font-weight: 600;
+    color: var(--color-gray-900);
+    margin-bottom: 0.25rem;
+}
+
+.member-role {
+    font-size: 0.875rem;
+    color: var(--color-gray-500);
+}
+
+.status-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2rem;
+    height: 2rem;
+    padding: 0 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: var(--radius-full);
+}
+
+.status-count.zero-count {
+    background-color: var(--color-gray-100);
+    color: var(--color-gray-400);
+    font-weight: 400;
+}
+
+.status-count.hot {
+    background-color: var(--color-hot-bg);
+    color: var(--color-hot);
+}
+
+.status-count.cold {
+    background-color: var(--color-cold-bg);
+    color: var(--color-cold);
+}
+
+.status-count.open {
+    background-color: var(--color-open-bg);
+    color: var(--color-open);
+}
+
+.status-count.not-interested {
+    background-color: var(--color-not-interested-bg);
+    color: var(--color-not-interested);
+}
+
+.status-count.junk {
+    background-color: var(--color-junk-bg);
+    color: var(--color-junk);
+}
+
+.total-cell {
+    font-weight: 700;
+    color: var(--color-gray-900);
+    font-size: 1rem;
+}
+
+.action-cell {
+    padding: 0.5rem;
+}
+
+.expand-button {
+    background-color: var(--color-gray-100);
+    border: 1px solid var(--color-gray-200);
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: var(--radius-full);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all var(--transition-speed) var(--transition-easing);
+}
+
+.expand-button:hover {
+    background-color: var(--color-gray-200);
+    transform: scale(1.05);
+}
+
+.expand-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: var(--color-gray-600);
+    transition: transform var(--transition-speed) var(--transition-easing);
+}
+
+.expand-button.expanded .expand-icon {
+    transform: rotate(180deg);
+}
+
+.projects-row td {
+    padding: 0;
+}
+
+.expanded-content {
+    padding: 0.5rem 0 0;
+    background-color: var(--color-gray-50);
+}
+
+.projects-table-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-gray-700);
+    margin: 0.5rem 0 1rem;
+    padding: 0 1.5rem;
+}
+
+/* Search & header styles */
+.projects-table-container {
+    padding: 0 1.5rem 1.5rem;
+    background-color: var(--color-gray-50);
+    border-bottom-left-radius: var(--radius-md);
+    border-bottom-right-radius: var(--radius-md);
+}
+
+.projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.search-container {
+    position: relative;
+    width: 300px;
+    max-width: 100%;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.6rem 2.5rem 0.6rem 1rem;
+    border: 1px solid var(--color-gray-300);
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+    color: var(--color-gray-800);
+    background-color: var(--color-white);
+    transition: border-color var(--transition-speed) var(--transition-easing),
+        box-shadow var(--transition-speed) var(--transition-easing);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--color-cold);
+    box-shadow: 0 0 0 2px var(--color-cold-bg);
+}
+
+.search-input::placeholder {
+    color: var(--color-gray-400);
+}
+
+.clear-search {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    color: var(--color-gray-500);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: var(--radius-full);
+}
+
+.clear-search:hover {
+    background-color: var(--color-gray-200);
+    color: var(--color-gray-700);
+}
+
+.projects-count {
+    font-size: 0.875rem;
+    color: var(--color-gray-600);
+    font-weight: 500;
+}
+
+/* Projects table */
+.projects-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray-200);
+    box-shadow: var(--shadow-sm);
+    border-top: 1px solid var(--color-gray-200);
+}
+
+.projects-table th,
+.projects-table td {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    border-bottom: 1px solid var(--color-gray-200);
+    text-align: center;
+}
+
+.projects-table th {
+    background-color: var(--color-gray-100);
+    font-weight: 600;
+    color: var(--color-gray-700);
+}
+
+.projects-table th:first-child {
+    text-align: left;
+}
+
+.projects-table td:first-child {
+    text-align: left;
+}
+
+.projects-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.projects-table tbody tr:hover {
+    background-color: var(--color-gray-50);
+}
+
+.project-name {
+    font-weight: 500;
+    color: var(--color-gray-800);
+}
+
+.project-total {
+    font-weight: 600;
+    color: var(--color-gray-900);
+}
+
+.no-results {
+    text-align: center !important;
+    padding: 2rem !important;
+    color: var(--color-gray-500);
+    font-style: italic;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+}
+
+.pagination-button {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray-300);
+    border-radius: var(--radius-md);
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-gray-700);
+    cursor: pointer;
+    transition: all var(--transition-speed) var(--transition-easing);
+}
+
+.pagination-button:hover:not(.disabled) {
+    background-color: var(--color-gray-100);
+    border-color: var(--color-gray-400);
+}
+
+.pagination-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.page-numbers {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.page-number {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-gray-200);
+    background-color: var(--color-white);
+    color: var(--color-gray-700);
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all var(--transition-speed) var(--transition-easing);
+}
+
+.page-number:hover:not(.active) {
+    background-color: var(--color-gray-100);
+    border-color: var(--color-gray-300);
+}
+
+.page-number.active {
+    background-color: var(--color-cold);
+    color: var(--color-white);
+    border-color: var(--color-cold);
+    font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+
+    .team-table th.th-status,
+    .team-table th.th-total {
+        font-size: 0.7rem;
+    }
+
+    .search-container {
+        width: 100%;
+    }
+
+    .projects-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 768px) {
+    .team-table-container {
+        padding: 1rem;
+    }
+
+    .status-count {
+        min-width: 1.5rem;
+        height: 1.5rem;
+        font-size: 0.75rem;
+        padding: 0 0.5rem;
+    }
+
+    .projects-table-container {
+        padding: 0 1rem 1rem;
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .page-numbers {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+}

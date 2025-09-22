@@ -1,0 +1,82 @@
+
+.card-advance .crad-dropdown-btn {
+  background-color: #fff !important;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card-advance .crad-dropdown-menu {
+  background-color: #fff !important;
+  border: none;
+  padding: 10px 6px;
+  margin: 0px;
+  border-radius: 5px;
+  box-shadow: 0 0.25rem 1rem rgba(165, 163, 174, 0.45);
+}
+
+.card-advance .crad-dropdown-menu .dropdown-item:hover {
+  background-color: #252b3b21;
+  color: #333;
+  border-radius: 5px;
+
+}
+.card-advance .crad-dropdown-menu .dropdown-item:focus {
+  background-color: #252b3b9c !important;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.card-advance .card-title h5 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.37;
+  color: #5d596c !important;
+}
+.card-advance .card-title small {
+  color: #a5a3ae !important;
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+
+.card-advance .card-item-list .icon-box {
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+}
+
+.card-advance .card-item-list .icon-box0 {
+  background-color: #f2f2f3 !important;
+  color: #a8aaae !important;
+}
+
+.card-advance .card-item-list .icon-box1 {
+  background-color: #dff7e9 !important;
+  color: #28c76f !important;
+}
+
+.card-advance .card-item-list .icon-box2 {
+  background-color: #d9f8fc !important;
+  color: #00cfe8 !important;
+}
+
+.card-advance .card-item-list .icon-box3 {
+  background-color: #fff1e3 !important;
+  color: #ff9f43 !important;
+}
+
+.card-advance .card-item-list .icon-box4 {
+  background-color: #eae8fd !important;
+  color: #7367f0 !important;
+}
+
+.card-advance .card-item-list .icon-box5 {
+  background-color: #fce5e6 !important;
+  color: #ea5455 !important;
+}
+.card-advance .card-item-list h6 {
+  margin-left: 1rem !important;
+  font-size: 1rem !important;
+  font-weight: 500;
+  line-height: 1.37;
+  color: #5d596c;
+}

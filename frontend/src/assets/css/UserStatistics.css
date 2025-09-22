@@ -1,0 +1,34 @@
+.user-statistics-list .sravatar {
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  background: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+  color: rgb(255, 255, 255) !important;
+  border-radius: 0.75rem;
+  box-shadow: rgb(0 0 0 / 14%) 0rem 0.25rem 1.25rem 0rem,
+    rgb(64 64 64 / 40%) 0rem 0.4375rem 0.625rem -0.3125rem !important;
+  border-radius: 100%;
+  font-size: 18px;
+  text-align: center;
+  padding: 11px;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+.card-advance .card-item-list h6 {
+  margin-left: 1rem !important;
+  font-size: 1rem !important;
+  font-weight: 500;
+  line-height: 1.37;
+  color: #5d596c;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 143px;
+  vertical-align: middle;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-wrap: break-word;
+}

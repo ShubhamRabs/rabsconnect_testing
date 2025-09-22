@@ -1,0 +1,26 @@
+export const Religion = [
+    {
+        value:"Hindu",
+        label:"Hindu"
+    },
+    {
+        value:"Muslim",
+        label:"Muslim"
+    },
+    {
+        value:"Christian",
+        label:"Christian"
+    },
+    {
+        value:"Sikh",
+        label:"Sikh"
+    },
+    {
+        value:"Jain",
+        label:"Jain"
+    },
+    {
+        value:"Others",
+        label:"Others"
+    }
+]

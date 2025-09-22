@@ -1,0 +1,9 @@
+.public-holiday {
+    background-color: red; /* Adjust the color as needed */
+    color: white; /* Adjust the text color if necessary */
+  }
+
+.non-public-holiday {
+    background-color: green; /* Adjust the color as needed */
+    color: white; /* Adjust the text color if necessary */
+}  

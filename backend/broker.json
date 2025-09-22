@@ -1,0 +1,380 @@
+{
+  "52": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "311": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "323": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "324": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "325": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "326": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "327": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "328": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "329": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "330": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "331": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "332": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "333": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "334": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "335": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "336": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "337": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "338": {
+    "visible": [
+      "status",
+      "broker_meet_status",      
+      "brk_id",
+      "totalCount",
+      "name",
+      "mobile",
+      "create_dt",
+      "createdby",
+      "company",
+      "rera_no",
+      "brk_location",
+      "remark",
+      "address"
+    ],
+    "hidden": []
+  },
+  "master": [
+    {
+      "header": "Date",
+      "accessor": "create_dt"
+    },
+    {
+      "header": "Posted By",
+      "accessor": "createdby"
+    },
+    {
+      "header": "Brk_Id",
+      "accessor": "brk_id"
+    },
+    {
+      "header": "No. of leads",
+      "accessor": "totalCount"
+    },
+    {
+      "header": "Broker Name",
+      "accessor": "name"
+    },
+    {
+      "header": "Mobile Number",
+      "accessor": "mobile"
+    },
+    {
+      "header": "Company Name",
+      "accessor": "company"
+    },
+    {
+      "header": "RERA No.",
+      "accessor": "rera_no"
+    },
+    {
+      "header": "Location",
+      "accessor": "brk_location"
+    },
+    {
+      "header": "Address",
+      "accessor": "address"
+    },
+    {
+      "header": "Remark",
+      "accessor": "remark"
+    },
+    {
+      "header": "Status",
+      "accessor": "status"
+    },
+    {
+      "header": "Meet Status",
+      "accessor": "broker_meet_status"
+    }
+  ]
+}

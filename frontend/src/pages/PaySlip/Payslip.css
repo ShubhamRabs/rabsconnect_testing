@@ -1,0 +1,141 @@
+/* Payslip.css */
+
+.payslip-container {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+  }
+  
+  .payslip-heading {
+    font-weight: bold;
+    text-transform: uppercase;
+    /* font-size: 18px; */
+  }
+  
+  .payslip-img img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .payslip-info p {
+    margin: 5px 0;
+  }
+  
+  .payslip-section {
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+  }
+  
+  .payslip-section:last-child {
+    border-bottom: none;
+  }
+  
+  .payslip-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .payslip-table th,
+  .payslip-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .payslip-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .payslip-total {
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .payslip-footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  @media print {
+    .payslip-container {
+      box-shadow: none;
+      border: none;
+    }
+  
+    .d-flex {
+      display: flex !important;
+    }
+  
+    .justify-content-between {
+      justify-content: space-between !important;
+    }
+    .print-button, .back-button {
+      display: none !important;
+    }
+  
+    /* Ensure the payslip is full width when printing */
+    .payslip-container {
+      width: 100% !important;
+      border: none !important;
+      box-shadow: none;
+    }
+  }
+  
+  .fixed-table {
+    table-layout: fixed;
+  }
+  .rdrDateRangePickerWrapper .rdrDefinedRangesWrapper {
+    display: none !important;
+  }
+  .fixed-table{
+    table-layout: fixed;
+  }
+  .rdrDateRangePickerWrapper .rdrDefinedRangesWrapper {
+    display: none !important;
+  }
+  .payslip{
+    max-width: 70vw;
+    /* max-height: 50vw; */
+    min-width: 60vw;
+    min-height: 100%;
+  }
+  
+  .payslip p{
+    font-size: 1.2vw;
+    margin: 0;
+  }
+  
+  .payslip-img{
+    width: 40vw;
+    /* background: red; */
+  }
+  
+  .payslip-img div{
+    width: 100%;
+  }
+  .payslip-img div img{
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .payslip-heading{
+    font-size: 2.2vw;
+    margin: 0;
+  }
+  
+  .details-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .details-value{
+    font-weight: bold;
+  }

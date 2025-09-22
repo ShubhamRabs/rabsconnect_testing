@@ -1,0 +1,57 @@
+.page-title {
+  font-size: 1rem !important;
+  line-height: 2.2 !important;
+  letter-spacing: 0.0075em !important;
+  text-transform: capitalize;
+  text-decoration: none !important;
+  color: rgb(52, 71, 103);
+  font-family: "Rubik", Sans-serif;
+  font-weight: 700 !important;
+}
+.hometext {
+  font-size: 0.875rem !important;
+  letter-spacing: 0.02857em !important;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Rubik", Sans-serif;
+  font-weight: 400 !important;
+  line-height: 0 !important;
+}
+.hometext svg {
+  position: relative !important;
+  top: 2px !important;
+  font-size: 1rem !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.01071em !important;
+  opacity: 0.5 !important;
+  text-transform: none;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 0 !important;
+  font-weight: 400 !important;
+}
+.separator {
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+  font-size: 0.875rem !important;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Rubik", Sans-serif;
+  font-weight: 400 !important;
+}
+@media only screen and (max-width: 768px) {
+  .breadcrumb-btn-group {
+    text-align: center !important;
+    display: flex;
+    width: auto;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    overflow: scroll;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+  .breadcrumb-btn-group button {
+    flex: none;
+    margin: 0px !important;
+  }
+}

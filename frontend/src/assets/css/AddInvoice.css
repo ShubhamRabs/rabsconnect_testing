@@ -1,0 +1,196 @@
+/* add-invoice card */
+.add-invoice-card {
+  border: none;
+  box-shadow: 0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);
+}
+
+.add-invoice-card .invoice-item-list {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #a8aaae;
+}
+
+.add-invoice-card .invoice-item-list .invoice-item-input-grp {
+  display: flex;
+  /* align-items: center;
+      justify-content: space-between; */
+}
+
+.add-invoice-card .invoice-item-list .invoice-item-input-grp div {
+  margin-right: 10px;
+}
+
+/* addinvoice bill t0*/
+.add-invoice-billto {
+  display: grid;
+  align-items: end;
+  justify-content: end;
+}
+
+/* salesperson */
+.addnvoice-salesperson {
+  padding: 15px;
+  color: #878a99;
+}
+
+.addnvoice-salesperson-input {
+  margin: 10px;
+  border-radius: 5px;
+  width: 8rem;
+  height: 2.5rem;
+  border-color: #b6b5b5;
+}
+
+.addnvoice-salesperson-des {
+  border-radius: 5px;
+  width: 15rem;
+  height: 2.5rem;
+  border-color: #b6b5b5;
+  color: #b6b5b5;
+  text-align: center;
+}
+
+.addnvoice-salesperson-Total {
+  color: #617181;
+}
+
+/*====================================== addvoice-box ======================================*/
+.addnvoice-heading {
+  padding: 10px 27px;
+}
+
+.addnvoice-box {
+  /* width: 300px;
+      height: 100px; */
+  padding: 25px;
+  border: 1px solid #c3c3c3;
+  border-radius: 10px;
+}
+
+.addnvoice-box select {
+  color: #c3c3c3;
+}
+
+.addinvoice-description {
+  padding: 15px 0px;
+}
+
+.addinvoice-description textarea {
+  width: 100%;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.addinvoice-description textarea::placeholder {
+  color: #c3c3c3;
+}
+
+.addinvoice-description textarea:focus {
+  border-color: #4545ff;
+}
+
+.addnvoice-additem {
+  padding: 15px;
+}
+
+.addnvoice-additem Button {
+  background-color: #696cff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 4px 15px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.addnvoice-discount {
+  padding: 10px;
+  color: #9c9a9a;
+}
+
+.addnvoice-discount-num {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addvoice-close-buttton {
+  border-inline-start-width: thin !important;
+  border-inline-start-style: solid !important;
+  color: #b6b5b5;
+}
+
+.addnvoice-salesperson {
+  padding: 15px;
+  color: #878a99;
+}
+
+.addnvoice-salesperson-input {
+  margin: 10px;
+  border-radius: 5px;
+  width: 8rem;
+  height: 2.5rem;
+  border-color: #b6b5b5;
+}
+
+.addnvoice-salesperson-des {
+  border-radius: 5px;
+  width: 15rem;
+  height: 2.5rem;
+  border-color: #b6b5b5;
+  color: #b6b5b5;
+  text-align: center;
+}
+
+.addnvoice-salesperson-Total {
+  color: #617181;
+}
+
+.addnvoice-note {
+  color: #617181;
+}
+
+.addnvoice-bankaccount .MuiAutocomplete-root {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.invoice-billto {
+  display: grid;
+  align-items: end;
+  justify-content: end;
+}
+
+.addinvoice-btn-group {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0.25rem 1.125rem #4b465c1a;
+  display: grid;
+  gap: 10px;
+}
+
+/* print invoice pdf */
+.table-heading {
+  background: rgb(77, 100, 255);
+  background: linear-gradient(131deg, #3356b5 57%, #d4d4d6 58%);
+}
+
+.custom-total-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-total-button {
+  background: linear-gradient(131deg, #3356b5 57%, #d4d4d6 58%);
+  padding: 24px 12px;
+}
+
+/* .total-price {
+    background: #0d6efd;
+    background: linear-gradient(112deg, #0d6efd 52%, #c9cdcd 52%);
+  } */
+
+.view-invoice-heading {
+  color: #4545ff;
+  text-decoration: underline;
+}

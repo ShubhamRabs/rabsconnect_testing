@@ -1,0 +1,376 @@
+{
+  "52": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "311": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "323": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "324": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "325": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "326": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "327": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "328": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "329": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "330": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "331": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "332": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "333": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "334": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "335": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "336": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "337": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "338": {
+    "visible": [
+      "c_status",
+      "c_source",
+      "create_dt",
+      "c_position",
+      "c_name",
+      "locality",
+      "c_mob",
+      "c_alt_mob",
+      "c_email",
+      "followup_dt"
+    ],
+    "hidden": [
+      "comments",
+      "city"
+    ]
+  },
+  "master": [
+    {
+      "header": "Date",
+      "accessor": "create_dt"
+    },
+    {
+      "header": "Candidate Name",
+      "accessor": "c_name"
+    },
+    {
+      "header": "Mobile Number",
+      "accessor": "c_mob"
+    },
+    {
+      "header": "Alt Mobile Number",
+      "accessor": "c_alt_mob"
+    },
+    {
+      "header": "Email Id",
+      "accessor": "c_email"
+    },
+    {
+      "header": "Source",
+      "accessor": "c_source"
+    },
+    {
+      "header": "Position",
+      "accessor": "c_position"
+    },
+    {
+      "header": "Candidate Status",
+      "accessor": "c_status"
+    },
+    {
+      "header": "Follow Up Date",
+      "accessor": "followup_dt"
+    },
+    {
+      "header": "Comments",
+      "accessor": "comments"
+    },
+    {
+      "header": "City",
+      "accessor": "city"
+    },
+    {
+      "header": "Locality",
+      "accessor": "locality"
+    }
+  ]
+}

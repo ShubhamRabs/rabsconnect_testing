@@ -1,0 +1,23 @@
+.status-card {
+  cursor: pointer;
+}
+
+.status-card:hover {
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.03);
+}
+
+.counting-text-num,
+.counting-text {
+  cursor: pointer;
+}
+
+.counting-text-num {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.counting-text {
+  font-size: 16px;
+  font-weight: 400 !important;
+}

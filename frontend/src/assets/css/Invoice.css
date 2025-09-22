@@ -1,0 +1,102 @@
+.invoice-counting-card {
+  border-right: 1px solid #ccc;
+  padding-right: 2rem !important;
+}
+
+.invoice-counting-card .icon-wrap {
+  background-color: #e9e9eb !important;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 3px #ccc;
+}
+
+.invoice-counting-card .icon-wrap svg {
+  color: #a8aaae !important;
+  font-weight: 500;
+}
+
+/* ========================= */
+.invoice-card {
+  border: none;
+  box-shadow: 0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);
+}
+.invoice-card .invoice-item-list {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #a8aaae;
+}
+
+.invoice-card .invoice-item-list .invoice-item-input-grp {
+  display: flex;
+  /* align-items: center;
+  justify-content: space-between; */
+}
+.invoice-card .invoice-item-list .invoice-item-input-grp div {
+  margin-right: 10px;
+}
+/* =================== */
+.invoice-btn-group {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0.25rem 1.125rem #4b465c1a;
+  display: grid;
+  gap: 10px;
+}
+.invoice-table-paid-bal {
+  background-color: #ede9e9;
+  border: 1px solid #ede9e9;
+  border-radius: 25px;
+  padding: 0px;
+  color: #17dc09;
+  margin: 0px 20px;
+  /* padding: 0px 2px;  */
+}
+
+.invoice-table-paid {
+  background-color: #ede9e9;
+  border: 1px solid #ede9e9;
+  border-radius: 25px;
+  padding: 0px;
+  color: #17dc09;
+  font-size: 32px;
+  padding: 3px;
+}
+.invoice-table-draft {
+  background-color: #ede9e9;
+  border: 1px solid #ede9e9;
+  border-radius: 25px;
+  padding: 0px;
+  color: #838383;
+  font-size: 32px;
+  padding: 3px;
+}
+.invoice-table-balance {
+  background-color: #ede9e9;
+  border: 1px solid #ede9e9;
+  border-radius: 25px;
+  padding: 0px;
+  color: #ff7a05;
+  font-size: 32px;
+  padding: 3px;
+}
+
+.invoice-table-send {
+  background-color: #ede9e9;
+  border: 1px solid #ede9e9;
+  border-radius: 25px;
+  padding: 0px;
+  color: #0516ff;
+  font-size: 32px;
+  padding: 3px;
+}
+.invoice-table-due {
+  background-color: #ede9e9;
+  border: 1px solid #ede9e9;
+  border-radius: 25px;
+  padding: 0px;
+  color: #f00707;
+  font-size: 32px;
+  padding: 3px;
+}

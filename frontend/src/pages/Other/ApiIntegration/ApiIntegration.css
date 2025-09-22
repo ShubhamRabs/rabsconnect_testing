@@ -1,0 +1,73 @@
+.api-subheading{
+    color: #696d77;
+    font-size: 0.875rem;
+}
+.api-btndiv{
+    display: flex;
+    justify-content: space-between;
+}
+.api-integration-header{
+    display: flex;
+    align-items: center;
+}
+.api-integration-header img{
+    height: auto;
+    width: 8.5%;
+    margin-bottom: 0.5rem;
+}
+.api-integration-heading{
+    padding-left: 0.5rem;
+}
+.intergration-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intergration-img{
+    margin: 0 10px;
+}
+.intergration-col svg{
+    font-size: 2.1rem;
+}
+.api-details-description{
+    font-size: 2.1rem;
+}
+.scrollable-content {
+    box-shadow: hsl(0 0% 0% / 0.25) 0 0.25em 0.5em;
+    background: #e9ecef;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 250px;
+    overflow-y: scroll;
+    margin: 1rem 0;
+  }
+  
+  .scrollable-content::-webkit-scrollbar {
+    /* display: none; */
+  }
+  
+  .mockup-font p:first-child {
+    font-size: 16px;
+    color: #383a3f;
+    font-weight: 700;
+  }
+  
+  .mockup-font p:not(:first-child) {
+    font-size: 14px;
+    color: #383a3f;
+    font-weight: 700;
+  }
+  .integrationdetails-btn{
+    /* text-align: center; */
+    background: #01ff16 !important  ;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center!important;
+  }
+  .scroable-content-link{
+    color: "#383a3f"; 
+    text-decoration: none; 
+  }
+  

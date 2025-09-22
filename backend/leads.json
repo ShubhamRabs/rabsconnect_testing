@@ -1,0 +1,486 @@
+{
+  "52": {
+    "visible": [
+      "lname",
+      "p_email",
+      "mobile",
+      "pname",
+      "latest_status",
+      "comments",
+      "lead_priority",
+      "followup_dt",
+      "l_id",
+      "form_name",
+      "create_dt"
+    ],
+    "hidden": [
+      "assign_users",
+      "service_type",
+      "source",
+      "city",
+      "s_mob",
+      "locality",
+      "post_handover",
+      "buyer_type",
+      "investment_type",
+      "handover_year"
+    ]
+  },
+  "64": {
+    "visible": [
+      "lname",
+      "pname",
+      "latest_status",
+      "create_dt",
+      "lead_priority",
+      "followup_dt",
+      "service_type",
+      "mobile",
+      "l_id",
+      "source",
+      "comments",
+      "city",
+      "s_mob",
+      "form_name",
+      "p_email",
+      "locality",
+      "assign_users",
+      "post_handover",
+      "buyer_type",
+      "investment_type",
+      "handover_year"
+    ],
+    "hidden": []
+  },
+  "65": {
+    "visible": [
+      "lname",
+      "pname",
+      "latest_status",
+      "create_dt",
+      "lead_priority",
+      "followup_dt",
+      "service_type",
+      "mobile",
+      "l_id",
+      "source",
+      "comments",
+      "city",
+      "s_mob",
+      "form_name",
+      "p_email",
+      "locality",
+      "assign_users",
+      "post_handover",
+      "buyer_type",
+      "investment_type",
+      "handover_year"
+    ],
+    "hidden": []
+  },
+  "67": {
+    "visible": [
+      "lname",
+      "pname",
+      "latest_status",
+      "create_dt",
+      "lead_priority",
+      "followup_dt",
+      "service_type",
+      "mobile",
+      "l_id",
+      "source",
+      "comments",
+      "city",
+      "s_mob",
+      "form_name",
+      "p_email",
+      "locality",
+      "assign_users",
+      "post_handover",
+      "buyer_type",
+      "investment_type",
+      "handover_year"
+    ],
+    "hidden": []
+  },
+  "68": {
+    "visible": [
+      "lname",
+      "pname",
+      "latest_status",
+      "create_dt",
+      "lead_priority",
+      "followup_dt",
+      "service_type",
+      "mobile",
+      "l_id",
+      "source",
+      "comments",
+      "city",
+      "s_mob",
+      "form_name",
+      "p_email",
+      "locality",
+      "assign_users",
+      "post_handover",
+      "buyer_type",
+      "investment_type",
+      "handover_year"
+    ],
+    "hidden": []
+  },
+  "69": {
+    "visible": [
+      "lname",
+      "pname",
+      "latest_status",
+      "create_dt",
+      "lead_priority",
+      "followup_dt",
+      "service_type",
+      "mobile",
+      "l_id",
+      "source",
+      "comments",
+      "city",
+      "s_mob",
+      "form_name",
+      "p_email",
+      "locality",
+      "assign_users",
+      "post_handover",
+      "buyer_type",
+      "investment_type",
+      "handover_year"
+    ],
+    "hidden": []
+  },
+  "70": {
+    "visible": [
+      "lname",
+      "mobile",
+      "latest_status",
+      "source",
+      "pname",
+      "create_dt",
+      "lead_priority",
+      "followup_dt",
+      "service_type",
+      "l_id",
+      "comments",
+      "city",
+      "s_mob",
+      "form_name",
+      "p_email",
+      "locality",
+      "assign_users",
+      "post_handover",
+      "buyer_type",
+      "investment_type",
+      "handover_year"
+    ],
+    "hidden": []
+  },
+  "71": {
+    "visible": [
+      "s_mob",
+      "mobile",
+      "latest_status",
+      "service_type",
+      "pname",
+      null,
+      "city",
+      "followup_dt",
+      "assign_users",
+      "comments",
+      "p_email",
+      "locality",
+      "source",
+      "form_name",
+      null,
+      "l_id"
+    ],
+    "hidden": []
+  },
+  "72": {
+    "visible": [
+      "s_mob",
+      "mobile",
+      "latest_status",
+      "service_type",
+      "pname",
+      "lname",
+      "city",
+      "followup_dt",
+      "assign_users",
+      "comments",
+      "p_email",
+      "locality",
+      "source",
+      "form_name",
+      "l_date",
+      "l_id"
+    ],
+    "hidden": []
+  },
+  "73": {
+    "visible": [
+      "lname",
+      "mobile",
+      "form_name",
+      "latest_status",
+      "lead_priority",
+      "followup_dt",
+      "all_comments"
+    ],
+    "hidden": [
+      "l_id",
+      "assign_users",
+      "pname",
+      "create_dt",
+      "service_type",
+      "source",
+      "city",
+      "s_mob",
+      "p_email",
+      "locality",
+      "post_handover",
+      "buyer_type",
+      "investment_type",
+      "handover_year"
+    ]
+  },
+  "74": {
+    "visible": [
+      "s_mob",
+      "mobile",
+      "latest_status",
+      "service_type",
+      "pname",
+      "lname",
+      "city",
+      "followup_dt",
+      "assign_users",
+      "comments",
+      "p_email",
+      "locality",
+      "source",
+      "form_name",
+      "l_date",
+      "l_id"
+    ],
+    "hidden": []
+  },
+  "75": {
+    "visible": [
+      "s_mob",
+      "mobile",
+      "latest_status",
+      "service_type",
+      "pname",
+      "lname",
+      "city",
+      "followup_dt",
+      "assign_users",
+      "comments",
+      "p_email",
+      "locality",
+      "source",
+      "form_name",
+      "l_date",
+      "l_id"
+    ],
+    "hidden": []
+  },
+  "77": {
+    "visible": [
+      "lname",
+      "mobile",
+      "assign_users",
+      "pname",
+      "latest_status",
+      "create_dt",
+      "lead_priority",
+      "followup_dt",
+      "service_type",
+      "l_id",
+      "source",
+      "comments",
+      "city",
+      "s_mob",
+      "form_name",
+      "p_email",
+      "locality",
+      "post_handover",
+      "buyer_type",
+      "investment_type",
+      "handover_year"
+    ],
+    "hidden": []
+  },
+  "78": {
+    "visible": [
+      "lname",
+      "pname",
+      "latest_status",
+      "create_dt",
+      "lead_priority",
+      "followup_dt",
+      "service_type",
+      "mobile",
+      "l_id",
+      "source",
+      "comments",
+      "city",
+      "s_mob",
+      "form_name",
+      "p_email",
+      "locality",
+      "assign_users",
+      "post_handover",
+      "buyer_type",
+      "investment_type",
+      "handover_year"
+    ],
+    "hidden": []
+  },
+  "79": {
+    "visible": [
+      "lname",
+      "pname",
+      "latest_status",
+      "create_dt",
+      "lead_priority",
+      "followup_dt",
+      "service_type",
+      "mobile",
+      "l_id",
+      "source",
+      "comments",
+      "city",
+      "s_mob",
+      "form_name",
+      "p_email",
+      "locality",
+      "assign_users",
+      "post_handover",
+      "buyer_type",
+      "investment_type",
+      "handover_year"
+    ],
+    "hidden": []
+  },
+  "80": {
+    "visible": [
+      "lname",
+      "mobile",
+      "assign_users",
+      "pname",
+      "latest_status",
+      "create_dt",
+      "lead_priority",
+      "followup_dt",
+      "service_type",
+      "l_id",
+      "source",
+      "comments",
+      "city",
+      "s_mob",
+      "form_name",
+      "p_email",
+      "locality",
+      "post_handover",
+      "buyer_type",
+      "investment_type",
+      "handover_year"
+    ],
+    "hidden": []
+  },
+  "master": [
+    {
+      "header": "Lead Id",
+      "accessor": "l_id"
+    },
+    {
+      "header": "Follow Up Date",
+      "accessor": "followup_dt"
+    },
+    {
+      "header": "Locality",
+      "accessor": "locality"
+    },
+    {
+      "header": "Lead Name",
+      "accessor": "lname"
+    },
+    {
+      "header": "Assing User",
+      "accessor": "assign_users"
+    },
+    {
+      "header": "Email Id",
+      "accessor": "p_email"
+    },
+    {
+      "header": "City",
+      "accessor": "city"
+    },
+    {
+      "header": "Lead Date",
+      "accessor": "create_dt"
+    },
+    {
+      "header": "Lead Status",
+      "accessor": "latest_status"
+    },
+    {
+      "header": "Lead Priority",
+      "accessor": "lead_priority"
+    },
+    {
+      "header": "Alternate Mobile",
+      "accessor": "s_mob"
+    },
+    {
+      "header": "Source",
+      "accessor": "source"
+    },
+    {
+      "header": "Service Type",
+      "accessor": "service_type"
+    },
+    {
+      "header": "Project Name",
+      "accessor": "pname"
+    },
+    {
+      "header": "Mobile Number",
+      "accessor": "mobile"
+    },
+    {
+      "header": "comments",
+      "accessor": "comments"
+    },
+    {
+      "header": "FB Form Name",
+      "accessor": "form_name"
+    },
+    {
+      "header": "Buyer Type",
+      "accessor": "buyer_type"
+    },
+    {
+      "header": "Investment Type",
+      "accessor": "investment_type"
+    },
+    {
+      "header": "Post Handover",
+      "accessor": "post_handover"
+    },
+    {
+      "header": "Handover year",
+      "accessor": "handover_year"
+    }
+  ]
+}
